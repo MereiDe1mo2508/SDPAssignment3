@@ -1,6 +1,6 @@
 package DiscDevices;
 
-public abstract class discDrive extends diskPlayer {
+public class discDrive extends discPlayer {
     public discDrive(){
         super("1.02 disc player");
     }
@@ -8,6 +8,6 @@ public abstract class discDrive extends diskPlayer {
     public void usePlayer() {
         System.out.print(version);
         this.disc.setMemory();
-        this.disc.function();
+        this.disc.play();
     }
 }

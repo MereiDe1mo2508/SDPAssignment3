@@ -1,6 +1,6 @@
-package DisksFormat;
+package DiscsFormat;
 
 public interface Disc {
     void setMemory();
-    void function();
+    void play();
 }

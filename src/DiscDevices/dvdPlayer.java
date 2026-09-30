@@ -1,6 +1,6 @@
 package DiscDevices;
 
-public abstract class dvdPlayer extends diskPlayer {
+public class dvdPlayer extends discPlayer {
     public dvdPlayer() {
         super("Windows 10");
     }
@@ -8,6 +8,6 @@ public abstract class dvdPlayer extends diskPlayer {
     public void usePlayer() {
         System.out.print(version);
         this.disc.setMemory();
-        this.disc.function();
+        this.disc.play();
     }
 }

@@ -1,14 +1,14 @@
 package DiscDevices;
 
-import DisksFormat.Disc;
+import DiscsFormat.Disc;
 
-public abstract class diskPlayer {
+public abstract class discPlayer {
     protected String version;
     protected Disc disc;
-    public diskPlayer(String version){
+    public discPlayer(String version){
         this.version = version;
     }
-    public setDisc(Disc disc) {
+    public void setDisc(Disc disc) {
         this.disc = disc;
     }
     public abstract void usePlayer();

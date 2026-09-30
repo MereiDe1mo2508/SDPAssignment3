@@ -1,4 +1,4 @@
-package DisksFormat;
+package DiscsFormat;
 
 public class cdDisc implements Disc {
     @Override
@@ -6,7 +6,7 @@ public class cdDisc implements Disc {
         System.out.println("700 MB");
     }
     @Override
-    public void function() {
+    public void play() {
         System.out.println("is putting CD disk. It plays the music from popular group Beatles");
     }
 }

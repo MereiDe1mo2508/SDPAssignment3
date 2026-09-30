@@ -1,4 +1,4 @@
-package DisksFormat;
+package DiscsFormat;
 
 public class dvdDisc implements Disc {
     @Override
@@ -6,7 +6,7 @@ public class dvdDisc implements Disc {
         System.out.println("8.5 GB");
     }
     @Override
-    public void function() {
+    public void play() {
         System.out.println("is putting DVD disc. It plays a documentary video about cosmos");
     }
 }
